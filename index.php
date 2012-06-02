@@ -28,7 +28,57 @@
 
 <body>
 
-	<div id="page-wrap">
+	<div class="wrapper">
+
+		<div class="video">
+			<iframe class="video-frame" width="615" height="345" src="http://www.youtube.com/embed/MmB9b5njVbA?rel=0" frameborder="0" allowfullscreen></iframe>
+	    	<div class="video-decoration"></div>
+		</div>
+		
+		<div class="whitelist">
+			<div class="whitelist-wrapper" style="overflow: auto;">
+		    	<h3 class="shadow">Apply For Whitelist</h3>
+		    
+				<form id="contactForm">
+		        	<div class="decoration"></div>
+		            	<fieldset>
+		                	<input type="text" name="contactName" id="contactName" size="30" placeholder="Minecraft Name" class="text-input">
+		
+		                    <input type="text" name="contactEmail" id="contactEmail" size="30" placeholder="Email Address" class="text-input">
+		
+							<textarea  name="contactMessage" id="contactMessage" class="text-input" placeholder="List 3 reasons we should add you"></textarea>
+							
+							<textarea  name="contactMessage" id="contactMessage" class="text-input" placeholder="Tell us a bit about yourself"></textarea>
+							
+		
+		                    <strong class="send-button"><input type="submit" name="submitMessage" class="contactButton" id="contactSubmitBtn" value="Apply"></strong>
+		                </fieldset>
+		        </form>
+		   	</div>
+		    
+			<div class="whitelist-decoration"></div>
+		</div>
+		
+	</div>
+	
+	
+	<div class="wrapper content">
+	
+		<div class="video-frame">
+	
+			<h1>How to install the dependencies</h1>
+		
+		</div>
+	
+	</div>
+	
+	
+	
+
+	<!--<div id="page-wrap">
+	
+		
+		
 		
 		<div class="dependencies">
 			<h1>How to install the dependencies</h1>
@@ -55,7 +105,7 @@
 				
 		</div>
 		
-	</div>
+	</div>-->
 
 </body>
 </html>
